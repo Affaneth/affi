@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bor {
+            /* background:radial-gradient(red,green,yellow); */
+            background: linear-gradient(335deg, red, green, yellow);
+            width: 400px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 15px 10px 25px red;
+            animation: bounce 8s infinite alternate ease-in-out;
+
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: rgb(247, 147, 147);
+            font-family: 'Times New Roman', Times, serif;
+            font-style: oblique;
+            font-size: medium;
+            text-shadow: 3px 2px 5px;
+            background-color: azure;
+        }
+
+        .img {
+            width: 50%;
+            border-radius: 20px;
+            padding: 10px;
+            border: 5px solid;
+            box-shadow: 10px 9px 15px;
+            background-color: rgba(151, 241, 115, 0.644);
+        }
+
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+                animation-timing-function: ease-in-out;
+            }
+
+            50% {
+                transform: translateY(-25px);
+                animation-timing-function: ease-in-out;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="center">
+    <div class="bor">
+        <h1>Clovion Tech Solutions Pvt...</h1>
+        <h3>Personal identification card</h3>
+        <img src="C.jpg" alt="" style="width: 50%;" class="img">
+        <h1>Name: Affaneth I</h1>
+        <h2>Age: XX</h2>
+        <h2>DOB: XX/XX/XXXX</h2>
+        <h2>Badge: Dean</h2>
+    </div>
+
+
+
+</body>
+
+</html>
